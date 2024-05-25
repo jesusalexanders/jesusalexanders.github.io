@@ -1,0 +1,182 @@
+p {
+    color: white;
+    font-style: oblique;
+    font-size: medium;
+}
+
+h1 {
+    color: rgb(165, 13, 13);
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(37, 9, 54);
+    font-Style: italic;
+    font-size: medium;
+}
+
+a:visited {
+    color: inherit;
+}
+
+title {
+    color: aquamarine;
+
+}
+
+image {
+    width: auto;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    right: 0;
+    left: 200;
+    height: 1px;
+    width: 1px;
+    
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #6e5c5c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #4ca2af;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #5aa387;
+}
+
+
+.legend {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    top: 0;
+    background-color: 0;
+    transition: all 0.3s ease;
+}
+
+.legend:hover {
+    transform: translateY(-3px);
+}
+
+.legend:active {
+    transform: translateY(-1px);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    transition: all o.3s ease;
+}
+
+.boton:hover {
+    transform: translateY(-3px);
+}
+
+.boton:active {
+    transform: translateY(-1px)
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu button {
+    background-color:#cbcf9a ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#menu button:hover {
+    background-color: rgba(238, 240, 248, 0.825);
+    transform: translateY(-3px);
+}
+
+#menu button:active {
+    transform: translateY(-1px);
+}
+
+#myCanvas{
+    z-index: 2;
+}
+
+.menu-superior{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu-superior a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-superior a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.menu-superior{
+    overflow: hidden;
+  background-color: #201f1f;
+}
+
+.menu-superior a{
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-superior a:hover, .menu-superior .active{
+    background-color: #ddd;
+    color: black;
+}
+
+a{
+  text-decoration: none;  
+}
+map{
+    color: white;
+}

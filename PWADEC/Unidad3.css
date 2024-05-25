@@ -1,0 +1,102 @@
+
+
+ul {
+    color: rgb(255, 255, 255)
+}
+
+body {
+    text-align: center;
+    background-image: url(fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #6e5c5c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #4ca2af;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #5aa387;
+}
+
+.menu-superior{
+    overflow: hidden;
+  background-color: #333;
+}
+
+.menu-superior a{
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-superior a:hover, .menu-superior .active{
+    background-color: #ddd;
+    color: black;
+}
+
+#myBtn{
+    position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+}
+#myBtn:hover {
+    background-color: #0056b3;
+}
+#myBtn::before {
+    content: "\2191\2191"; 
+    font-size: 18px;
+            display: block;
+        }
+        .btn-home {
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none; 
+            display: inline-block;
+            }
+h3{
+    color: white;
+    font-size: 32px;
+}      
+p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    text-align: center;
+}      
+h2{
+    color: white;
+    font-size: 32px;
+}
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+b{
+    font-size: 24px;
+}

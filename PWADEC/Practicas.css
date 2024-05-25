@@ -1,0 +1,84 @@
+h6 {
+    color: violet
+}
+
+ul {
+    color: black
+}
+
+body {
+    background-image: url(fondo5.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #6e5c5c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #4ca2af;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #5aa387;
+}
+
+.menu-superior{
+    overflow: hidden;
+  background-color: #333;
+}
+
+.menu-superior a{
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-superior a:hover, .menu-superior .active{
+    background-color: #ddd;
+    color: black;
+}
+.btn-home {
+    background-color: #0074D9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none; 
+    display: inline-block;
+    }
+h6{
+    color: white;
+    font-size: 32px;
+}    
+
+b{
+    font-size: 24px;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-family: serif;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 32px;
+}

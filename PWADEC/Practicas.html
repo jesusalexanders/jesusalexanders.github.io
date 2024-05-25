@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="Practicas.css">
+  <title>Practicas</title>
+</head>
+<style>
+  .menu-superior {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .menu-superior a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu-superior a:hover {
+    background-color: #ddd;
+    color: black;
+
+  }
+  #myBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #myBtn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Agrega las flechitas (puedes usar íconos o caracteres especiales) */
+        #myBtn::before {
+            content: "\2191\2191"; /* Código Unicode para las flechas hacia arriba */
+            font-size: 18px;
+            display: block;
+        }
+</style>
+<body>
+  <div class="menu-superior">
+    <a href="index.html">Menu principal</a>
+    <a href="Unidad1.html">Unidad1</a>
+    <a href="Unidad2.html">Unidad2</a>
+    <a href="Unidad3.html">unidad3</a>
+    <a href="Unidad4.html">Unidad4</a>
+    <a href="Practicas.html" class="active">Practicas</a>
+  </div>
+  <legend style="background-color: rgba(35, 35, 35, 0.66);">   <h6>Practicas</h6>
+    <ul><b>
+        <li><a href="#practica 1: armar y desmontar una PC">practica 1: armar y desmontar una PC</a></li>
+        <li><a href="#practica 2: Procesadores">practica 2: Procesadores</a></li>
+        <li><a href="#practica 3: memorias RAM"> practica 3: memorias RAM </a></li>
+        <li><a href="#practica 4: desmontaje y remontaje de una computadora"> practica 4: desmontaje y remontaje de una
+            computadora</a></li>
+        <li><a href="#Practica 5: Montaje en VR">Practica 5: Montaje en VR</a> </li>
+    </ul>
+    </b>
+
+    <h3 id="practica 1: armar y desmontar una PC">practica 1: armar y desmontar una PC</h3>
+    <p>
+      La primera practica de laboratorio consistio en que nuestro equipo desmontaria distintos equipos de computo con el
+      fin de identificar las piezas con las que este estaba formado, ademas de su posicion y las caracteristicas de la
+      misma PC, seguido de eso tendriamos que rearmar la computadora de tal manera que todo quedara exactamente igual a
+      como la encontramos antes de desarmarla, entre los componentes estaba la tarjeta madre en el fondo del gabinete,
+      memorias RAM, la fuente de poder, unidad lectora de discos, disco duro, discipador, ventilacion y el procesador.
+      <br><img src="Practica1.jpg" width="350px">
+    </p>
+    <br>
+    <h3 id="practica 2: Procesadores">practica 2: Procesadores</h3>
+    <p>
+      La segunda practica consistio en checar el procesador de 4 computadoras distintas con el fin de revisar los
+      nucleos, los hilos y la generacion de estos, entre esas 4 computadoras, el procesador mas anticuado que pude
+      revisar fue un intel pentium 4 y un intel pentium 3, y el mas rapido a mi parecer fue el intel dual core.
+      (intel pentium 4)
+      <br> <img src="procesadores.jpg" width="300px" height="300px">
+    </p>
+    <h3 id="practica 3: memorias RAM">practica 3: memorias RAM</h3>
+    <p>
+      En la tercera practica tuvimos que verifcar entre 4 computadoras la capacidad de ram que tenia cada una de ellas,
+      admitiendo solo ciertos tipos entre DDR2 y DDR3, 1 de esas computadores estaba averiada, por lo que solo pudimos
+      verificar 3, 2 de esas computadoras admitian DDR2, por lo que la mayoria (por no decir todas) de las memorias RAM
+      funcionaban en ellas, pero en la ultima que hicimos la comprobacion, solo admitia DDR3, ya que si intentabamos
+      colocar una DDR2 en ella, esta simplemente no encajaba, entre cada memoria RAM verificabamos en el monitor la
+      reaccion que tendria la computadora con la RAM, pues entre ellas habia tambian algunas que no funcionaban.
+      <br><img src="practica3.jpg" width="300px">
+    </p>
+
+    <h3 id="practica 4: desmontaje y remontaje de una computadora">practica 4: desmontaje y remontaje de una PC </h3>
+    <p>
+      En esta cuarta practica volvimos a hacer lo de la primera practica, que fue desmontar una PC, verificar sus
+      componentes y volverla a armar, pero la complejidad fue de que esta tendira que funcionar de vuelta al momento de
+      rearmar, para mi una de de las practicas mas interesantes, pues la practica se hacia con miedo de que dejara de
+      funcionar, aunque lo que mas se me dificulto fue retirar el cable H1 de la tarjeta madre, lo demas fue
+      relativamente sencillo, una vez que la pc estaba de nuevo armada, la conectabamos a un monitor junto el mouse y el
+      teclado para revisar que todo estuviera en orden.
+      <img src="practica4.jpg" width="300px" height="300px">
+    </p>
+
+    <h3 id="Practica 5: Montaje en VR"> practica 5: montaje en VR</h3>
+    <p>
+      En esta ultima practica nos dirijimos al laboratorio de realidad virtual, en donde nos colocamos unas gafas HTC
+      Vive para la practica, la practica consistio en realizar un pequeño examen practico en donde completabamos
+      distintos encargos y señalabamos las partes de la pc, asi como armar una de gamma alta, cada uno de los
+      integrantes pasaba y realizaba esta prueba, con el fin de obtener el mejor desempeño en tiempo y el minimo de
+      errores dentro de esta, en mi opinion la practica mas facil de las 5 realizadas.
+      <br><img src="practica5.jpg" width="300px">
+    </p>
+
+    <br><button class="btn-home"> <a href="index.html">Pagina Principal</a></button>
+  </legend>
+
+  <kbd>
+    <button onclick="topFunction()" id="myBtn" title="volver arriba">Volver arriba</button>
+    <script>
+      window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+});
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</kbd>
+</body>
+
+</html>
